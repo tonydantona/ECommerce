@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ECommerce", "ECommerce\ECommerce.sfproj", "{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog", "ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj", "{681F6038-2302-49FA-9282-0D84708E1DD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.ProductCatalog.Model", "ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj", "{DD362465-35D2-4B6C-9605-F12410CCC1A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.API", "ECommerce.API\ECommerce.API.csproj", "{A02CDD4E-8252-44C7-83C1-E9D839E0507A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Debug|x64.ActiveCfg = Debug|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Debug|x64.Build.0 = Debug|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Debug|x64.Deploy.0 = Debug|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Release|Any CPU.ActiveCfg = Release|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Release|x64.ActiveCfg = Release|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Release|x64.Build.0 = Release|x64
+		{D05D3DE2-2190-439C-9FDA-9B7775C48A7C}.Release|x64.Deploy.0 = Release|x64
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Debug|x64.Build.0 = Debug|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Release|x64.ActiveCfg = Release|Any CPU
+		{681F6038-2302-49FA-9282-0D84708E1DD3}.Release|x64.Build.0 = Release|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{DD362465-35D2-4B6C-9605-F12410CCC1A7}.Release|x64.Build.0 = Release|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Debug|x64.Build.0 = Debug|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Release|x64.ActiveCfg = Release|Any CPU
+		{A02CDD4E-8252-44C7-83C1-E9D839E0507A}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EB03DA7-D4EB-4B7C-AC71-7E52D77528D1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://orionpsup.inside.ups.com/tablet
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ECommerce.API\\ECommerce.API.csproj
+		SccProjectName1 = ECommerce.API
+		SccLocalPath1 = ECommerce.API
+		SccProjectUniqueName2 = ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj
+		SccProjectName2 = ECommerce.ProductCatalog.Model
+		SccLocalPath2 = ECommerce.ProductCatalog.Model
+		SccProjectUniqueName3 = ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj
+		SccProjectName3 = ECommerce.ProductCatalog
+		SccLocalPath3 = ECommerce.ProductCatalog
+		SccProjectUniqueName4 = ECommerce\\ECommerce.sfproj
+		SccProjectName4 = ECommerce
+		SccLocalPath4 = ECommerce
+	EndGlobalSection
+EndGlobal
